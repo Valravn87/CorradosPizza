@@ -1,0 +1,353 @@
+body {
+	background-image: url("images/wallpaper5.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #FFD700;
+	font-family: 'Eagle Lake';
+	font-size: 10pt;
+}
+
+.container {
+	width: 1000px;
+	display: block;
+	margin: auto;
+	/*background-color: red;*/
+	background-image: linear-gradient(to bottom right, #FF0000, #660000);
+	min-height: 1000px;
+	overflow: auto;
+	border-style: inset;
+	border-color: gold;
+}
+
+header {
+	min-height: 70px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Diplomata SC';
+	font-size: 30pt;
+}
+
+h2, h3 {
+	font-family: 'Cinzel Decorative';
+	font-weight: normal;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav {
+	min-height: 25px;
+}
+
+a {
+	color: #808000;
+	text-decoration: none;
+}
+
+a:hover {
+	/*cursor: crosshair;*/
+}
+
+a:visited {
+	color: 	#66023C;
+}
+
+footer a:visited {
+	color: #990660
+}
+
+.nav-top, .nav-bottom {
+	font-family: 'Diplomata';
+	font-size: 16pt;
+	list-style: none;
+	display: flex;
+    justify-content: space-between;
+    align-content: center;	
+	border-style: inset;
+	border-color: gold;
+}
+
+.nav-top li {
+	padding: 0px 20px 0px;
+}
+
+/*.nav-bottom {
+	list-style: none;
+}*/
+
+.menu-toc {
+	text-align: center;
+	width: 350px;
+	margin: auto;
+}
+
+.menu {
+	background-image: url("images/background-parchment.jpg");
+	background-size: cover;
+	border-style: inset;
+	border-color: gold;
+	margin: auto;
+	float: none;
+	color: #606000;
+	padding: 10px 5px 20px 5px;
+	overflow: auto;
+}
+
+.menu a	{
+	color: #606000;
+}
+
+.menu h2 {
+	font-size: 30pt;
+}
+
+.menu h3 {
+	font-size: 16pt;
+	margin: 10px 0px 0px;
+	/*width: 240px;
+	float: left;*/
+}
+
+.menu p {
+	text-align: center;
+}
+
+.menu table {
+	color: #606000;
+	margin: auto;
+	font-size: 10pt;
+}
+
+.menu th, tr {
+	padding: 0px 10px 0px 10px;
+}
+
+#pizza h3, p {
+	text-align: center;
+}
+
+.menu ul {
+	list-style: none;
+	width: 650px;
+	margin: auto;
+}
+
+.menu li {
+	padding: 0px 10px 0px;
+	width: 305px;
+	float: left;
+	min-height: 160px;
+}
+
+.menu-price {
+	font-weight: bold;
+	font-size: 12pt;
+	/*width: 65px;
+	float: right;*/
+}
+
+.menu p {
+	clear: both;
+}
+
+.menu hr {
+	background-image: url("images/divider.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clear: both;
+	height: 140px;
+	border: 0px;
+	margin: 0px;
+}
+section {
+	width: 730px;
+	float: left;
+	min-height: 1000px;
+	padding: 0px 10px 0px;
+}
+
+aside {
+	width: 230px;
+	float: right;
+	min-height: 1000px;
+	padding: 0px 10px 0px;
+}
+
+footer {
+	width: 100%;
+	min-height: 40px;
+	width: 1000px;
+	display: block;
+	margin: auto;
+	background-image: linear-gradient(to left, #FF0000, #660000);
+	overflow: auto;
+}
+
+footer p {
+	text-align: center;
+	font-size: 16pt;
+}
+
+footer span {
+	display: inline-block;
+	width: 25px;
+}
+
+form {
+	display: block;
+	width: 750px;
+	margin: auto;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+
+#order-style {
+	float: left;
+}
+
+#order-size {
+	display: none;
+	float: left;
+	margin-left: 100px;
+}
+
+.order-item {
+	width: 650px;
+	margin: auto;
+	margin-bottom: 25px;
+	border-style: inset;
+	border-color: gold;
+	min-height: 70px;
+	overflow: auto;
+}
+
+.order-item-name {
+	float: left;
+	width: 168px;
+	padding: 15px;
+	border-style: inset;
+	border-color: gold;
+	border-width: 0px 2px 0px 0px;
+}
+
+.order-item-desc {
+	float: left;
+	width: 380px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.order-item-delete {
+	float: right;
+	width: 50px;
+	text-align: center;
+}
+
+.x-delete {
+	margin: 30px 0px 30px 0px;
+	width: 15px;
+}
+
+.x-delete:hover {
+	cursor: pointer;
+}
+
+#order-total-box {
+	display: none;
+	border-style: inset;
+	border-color: gold;
+	width: 650px;
+	margin: auto;
+	margin-bottom: 25px;
+	overflow: auto;
+	clear: both;
+}
+
+.order-total-sub-box {
+	float: left;
+	width: 132px;
+	padding: 15px;
+}
+
+.order-total-sub-box h3, p {
+	text-align: right;
+}
+
+#order-checkout {
+	display: none;
+}
+
+#order-address {
+	float: left;
+}
+
+#order-credit-card-type {
+	float: right;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+#order-credit-card-detail {
+	float: right;
+	width: 310px;
+}
+
+form table {
+	border-style: inset;
+	border-color: gold;
+}
+
+form table th {
+	font-family: 'Cinzel Decorative';
+	font-size: 18pt;
+}
+
+button {
+	font-family: 'Cinzel Decorative';
+	font-size: 16pt;
+	color: #909000;
+	background-color: #880000;
+	border-style: inset;
+	border-color: gold;
+}
+
+.enabled-button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	color: #404020;
+	background-color: #422;
+	border-color: #909000;
+}
+
+#order-top {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#order-bottom {
+	margin-top: 15px;
+}
+
+#style {
+	min-width: 240px;
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+
+#size {
+	min-width: 240px;
+	margin: 0px 0px 0px 20px;
+	float: left;
+}
+
+#toppings {
+	display: none;
+	clear: both;
+}
