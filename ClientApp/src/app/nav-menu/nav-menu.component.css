@@ -1,0 +1,62 @@
+nav {
+	min-height: 25px;
+}
+
+.nav-top, .nav-bottom {
+	font-family: 'Diplomata';
+	font-size: 16pt;
+	list-style: none;
+	display: flex;
+  justify-content: space-between;
+  align-content: center;	
+	border-style: inset;
+  border-color: gold;
+  margin-bottom: 0;
+}
+
+.nav-top li {
+	padding: 0px 20px 0px;
+}
+
+.nav-bottom {
+	margin: 21px 0px;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+footer {
+	width: 100%;
+	min-height: 40px;
+	display: block;
+	margin: auto;
+	background-image: linear-gradient(to left, #FF0000, #660000);
+	overflow: auto;
+}
+
+footer p {
+	text-align: center;
+	font-size: 16pt;
+}
+
+footer span {
+	display: inline-block;
+	width: 25px;
+}

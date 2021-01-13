@@ -1,1 +1,64 @@
-
+<header>
+  <h1>Corrado's Pizzeria</h1>
+</header>
+<nav>
+  <ul class="nav-top">
+      <li
+      [routerLinkActive]="['link-active']"
+      [routerLinkActiveOptions]="{ exact: true }">
+        <a [routerLink]="['/']">Home</a>
+      </li>
+      <li
+      [routerLinkActive]="['link-active']"
+      [routerLinkActiveOptions]="{ exact: true }">
+        <a [routerLink]="['menu']">Menu</a>
+      </li>
+      <li
+      [routerLinkActive]="['link-active']"
+      [routerLinkActiveOptions]="{ exact: true }">
+        <a [routerLink]="['order']">Order</a>
+      </li>
+      <li
+      [routerLinkActive]="['link-active']"
+      [routerLinkActiveOptions]="{ exact: true }">
+        <a [routerLink]="['history']">History</a>
+      </li>
+      <li
+      [routerLinkActive]="['link-active']"
+      [routerLinkActiveOptions]="{ exact: true }">
+        <a [routerLink]="['location']">Location</a>
+      </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+<footer>
+  <ul class="nav-bottom">
+    <li
+    [routerLinkActive]="['link-active']"
+    [routerLinkActiveOptions]="{ exact: true }">
+      <a [routerLink]="['/']">Home</a>
+    </li>
+    <li
+    [routerLinkActive]="['link-active']"
+    [routerLinkActiveOptions]="{ exact: true }">
+      <a [routerLink]="['menu']">Menu</a>
+    </li>
+    <li
+    [routerLinkActive]="['link-active']"
+    [routerLinkActiveOptions]="{ exact: true }">
+      <a [routerLink]="['order']">Order</a>
+    </li>
+    <li
+    [routerLinkActive]="['link-active']"
+    [routerLinkActiveOptions]="{ exact: true }">
+      <a [routerLink]="['history']">History</a>
+    </li>
+    <li
+    [routerLinkActive]="['link-active']"
+    [routerLinkActiveOptions]="{ exact: true }">
+      <a [routerLink]="['location']">Location</a>
+    </li>
+  </ul>
+  <b><p>2120 Olive St <span>&#183;</span>St. Louis, MO 63103 <span>&#183;</span> (314)555-1349</p></b>
+  <p style="font-size: 12pt;">&#169;2020 Conrad Arthur</p>
+</footer>
