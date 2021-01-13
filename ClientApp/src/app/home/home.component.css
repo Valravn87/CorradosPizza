@@ -1,0 +1,7 @@
+.img-thumb {
+	width: 200px;
+}
+
+.img-thumb:hover {
+	cursor: pointer;
+}
