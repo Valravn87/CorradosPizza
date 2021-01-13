@@ -185,7 +185,7 @@ export class OrderComponent implements OnInit {
     this.piz = null;
     $("#order-style input").each(function(){
       $(this).prop("checked", false);
-    })
+    });
   }
   
   removePizza(pizza: Pizza): void {
