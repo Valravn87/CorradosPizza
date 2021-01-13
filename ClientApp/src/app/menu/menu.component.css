@@ -1,0 +1,91 @@
+.menu-toc {
+	text-align: center;
+	width: 350px;
+	margin: auto;
+}
+
+.menu-toc a:not([href]):hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0056b3;
+}
+
+.menu {
+	background-image: url("/assets/images/background-parchment.jpg");
+	background-size: cover;
+	border-style: inset;
+	border-color: gold;
+	margin: auto;
+	float: none;
+	color: #606000;
+	padding: 10px 5px 20px 5px;
+	overflow: auto;
+}
+
+.menu a	{
+	color: #606000;
+}
+
+.menu h2 {
+	font-size: 30pt;
+}
+
+.menu h3 {
+	font-size: 16pt;
+	margin: 10px 0px 0px;
+}
+
+.menu p {
+	text-align: center;
+}
+
+.menu table {
+	color: #606000;
+	margin: auto;
+	font-size: 10pt;
+}
+
+.menu th, tr {
+	padding: 0px 10px 0px 10px;
+}
+
+.menu-link:hover {
+    cursor: pointer;
+}
+
+#pizza h3, p {
+	text-align: center;
+}
+
+.menu ul {
+	list-style: none;
+	width: 650px;
+	margin: auto;
+}
+
+.menu li {
+	padding: 0px 10px 0px;
+	width: 305px;
+	float: left;
+	min-height: 160px;
+}
+
+.menu-price {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.menu p {
+	clear: both;
+}
+
+.menu hr {
+	background-image: url("/assets/images/divider.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clear: both;
+	height: 140px;
+	border: 0px;
+	margin: 0px;
+}
