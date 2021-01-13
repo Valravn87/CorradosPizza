@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-order-success',
-  templateUrl: './order-success.component.html',
-  styleUrls: ['./order-success.component.css']
+  templateUrl: './order-success.component.html'
 })
 export class OrderSuccessComponent implements OnInit {
 
