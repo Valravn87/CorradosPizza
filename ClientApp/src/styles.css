@@ -1,0 +1,233 @@
+body {
+	background-image: url("/assets/images/wallpaper5.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #FFD700;
+	font-family: 'Eagle Lake';
+	font-size: 10pt;
+	line-height: 1.6;
+}
+
+.container {
+  background-image: linear-gradient(to bottom right, #FF0000, #660000);
+	width: 1000px;
+	display: block;
+	margin: auto;
+  padding: 0;
+}
+
+.content {
+	min-height: 750px;
+  overflow: auto;
+	border-style: inset;
+  border-color: gold;
+  padding-top: 15px;
+}
+
+header {
+	min-height: 70px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Diplomata SC';
+	font-size: 30pt;
+}
+
+h2, h3 {
+	font-family: 'Cinzel Decorative';
+	font-weight: normal;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: #808000;
+}
+
+section {
+	width: 730px;
+	float: left;
+	padding: 0px 10px 0px;
+}
+
+section p {
+	text-align: center;
+}
+
+aside {
+	width: 230px;
+	float: right;
+	min-height: 1000px;
+	padding: 0px 10px 0px;
+}
+
+/* form {
+	display: block;
+	width: 750px;
+	margin: auto;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+
+#order-style {
+	float: left;
+}
+
+#order-size {
+	display: none;
+	float: left;
+	margin-left: 100px;
+}
+
+.order-item {
+	width: 650px;
+	margin: auto;
+	margin-bottom: 25px;
+	border-style: inset;
+	border-color: gold;
+	min-height: 70px;
+	overflow: auto;
+}
+
+.order-item-name {
+	float: left;
+	width: 168px;
+	padding: 15px;
+	border-style: inset;
+	border-color: gold;
+	border-width: 0px 2px 0px 0px;
+}
+
+.order-item-desc {
+	float: left;
+	width: 380px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.order-item-delete {
+	float: right;
+	width: 50px;
+	text-align: center;
+}
+
+.x-delete {
+	margin: 30px 0px 30px 0px;
+	width: 15px;
+}
+
+.x-delete:hover {
+	cursor: pointer;
+}
+
+#order-total-box {
+	display: none;
+	border-style: inset;
+	border-color: gold;
+	width: 650px;
+	margin: auto;
+	margin-bottom: 25px;
+	overflow: auto;
+	clear: both;
+}
+
+.order-total-sub-box {
+	float: left;
+	width: 132px;
+	padding: 15px;
+}
+
+.order-total-sub-box h3, p {
+	text-align: right;
+}
+
+#order-checkout {
+	display: none;
+}
+
+#order-address {
+	float: left;
+}
+
+#order-credit-card-type {
+	float: right;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+#order-credit-card-detail {
+	float: right;
+	width: 310px;
+}
+
+form table {
+	border-style: inset;
+	border-color: gold;
+}
+
+form table th {
+	font-family: 'Cinzel Decorative';
+	font-size: 18pt;
+}
+
+button {
+	font-family: 'Cinzel Decorative';
+	font-size: 16pt;
+	color: #909000;
+	background-color: #880000;
+	border-style: inset;
+	border-color: gold;
+}
+
+.enabled-button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	color: #404020;
+	background-color: #422;
+	border-color: #909000;
+}
+
+#order-top {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#order-bottom {
+	margin-top: 15px;
+}
+
+#style {
+	min-width: 240px;
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+
+#size {
+	min-width: 240px;
+	margin: 0px 0px 0px 20px;
+	float: left;
+}
+
+#toppings {
+	display: none;
+	clear: both;
+} */
